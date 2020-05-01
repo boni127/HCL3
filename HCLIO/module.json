@@ -1,0 +1,16 @@
+{
+    "id": "{0BE7FA45-4866-1A55-2736-D0CAB9C70680}",
+    "name": "HCLIO",
+    "type": 1,
+    "vendor": "Fibaro",
+    "aliases": [ "Fibaro Homecenter Lite IO 3" ],
+    "parentRequirements": [],
+    "childRequirements": [
+        "{D443C558-D963-4B2A-D017-B97CF576CB3A}"
+    ],
+    "implemented": [
+        "{6DEAE164-60E6-BF7A-53B7-A24588741E4D}"
+    ],
+    "prefix": "HCLI",
+    "url": "http://www.test.de"
+}

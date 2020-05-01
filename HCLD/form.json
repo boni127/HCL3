@@ -1,0 +1,12 @@
+{
+    "elements":
+    [
+       {
+            "type": "NumberSpinner", 
+            "name": "HclId", 
+            "caption": "HCL-ID"
+       }
+
+    ]
+    
+}

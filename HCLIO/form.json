@@ -1,0 +1,21 @@
+{
+    "elements":
+    [
+       {
+            "type": "ValidationTextBox", 
+            "name": "Host", 
+            "caption": "Hostname"
+       },
+       {
+            "type": "ValidationTextBox", 
+            "name": "User", 
+            "caption": "Benutzer"
+       },       
+       {
+            "type": "PasswordTextBox", 
+            "name": "Password", 
+            "caption": "Passwort"
+       }
+    ]
+    
+}

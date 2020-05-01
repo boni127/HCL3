@@ -1,0 +1,16 @@
+{
+    "id": "{5C71DE68-3DB9-2B14-58E3-C3A6D5A426C2}",
+    "name": "HCLD",
+    "type": 3,
+    "vendor": "Fibaro",
+    "aliases": ["Fibaro Homecenter Lite Device 3"],
+    "parentRequirements": [
+        "{1590D5D7-2F2F-BF7F-3C3A-D9581874BF46}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{66D69490-42AD-A343-0F75-185A31AA08BA}"
+    ],
+    "prefix": "HCLD",
+    "url": "http://www.test.de"
+}
