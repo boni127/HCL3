@@ -25,9 +25,9 @@
 		public function ForwardData($JSONString)
 		{
 			$data = json_decode($JSONString);
-			IPS_LogMessage("IO FRWD", utf8_decode($data->Buffer));
+			IPS_LogMessage("IO FRWD", $JSONString);
 			$Text = 'Antwort vom IO';
-			$this->SendDataToChildren(json_encode(Array("DataID" => "{D443C558-D963-4B2A-D017-B97CF576CB3A}", "Buffer" => $Text)));
+			$this->SendDataToChildren(json_encode(Array("DataID" => "{D443C558-D963-4B2A-D017-B97CF576CB3A}", "Buffer" => $Text, "HclId" => $data->HclId)));
 		}
 
 		public function Send(string $Text)

@@ -23,6 +23,8 @@
 		public function ApplyChanges()
 		{
 			//Never delete this line!
+			$id= $this->ReadPropertyInteger("HclId");
+			$this->SetReceiveDataFilter(".*\"HclId\":$id.*");
 			parent::ApplyChanges();
 		}
 
@@ -31,14 +33,17 @@
 			$Text .= $this->ReadPropertyInteger("HclId");
 			$id= $this->ReadPropertyInteger("HclId");
 			IPS_LogMessage("Device Send($id)", $Text);
-			$this->SendDataToParent(json_encode(Array("DataID" => "{1590D5D7-2F2F-BF7F-3C3A-D9581874BF46}","Buffer" => $Text)));
+			$this->SendDataToParent(json_encode(Array("DataID" => "{1590D5D7-2F2F-BF7F-3C3A-D9581874BF46}","Buffer" => $Text,"HclId"=>$id)));
 		}
 
 		public function ReceiveData($JSONString)
 		{
 			$data = json_decode($JSONString);
 			$id= $this->ReadPropertyInteger("HclId");
+			//$abc = $data->DevID;
 			IPS_LogMessage("Device RECV($id)", utf8_decode($data->Buffer));
+			IPS_LogMessage("Device RECV($id): HclId", utf8_decode($data->HclId));
+
 		}
 
 	}
