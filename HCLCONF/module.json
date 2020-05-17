@@ -1,0 +1,16 @@
+{
+    "id": "{5A6B59F8-7B6D-15F3-72A8-57AE88D93593}",
+    "name": "HCLK",
+    "type": 4,
+    "vendor": "Fibaro",
+    "aliases": ["Fibaro Homecenter Lite Configurator 3"],
+    "parentRequirements": [
+        "{1590D5D7-2F2F-BF7F-3C3A-D9581874BF46}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{66D69490-42AD-A343-0F75-185A31AA08BA}"
+    ],
+    "prefix": "HCLK",
+    "url": "http://www.test.de"
+}

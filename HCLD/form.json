@@ -5,8 +5,12 @@
             "type": "NumberSpinner", 
             "name": "HclId", 
             "caption": "HCL-ID"
+       },
+       {
+            "type": "ValidationTextBox", 
+            "name": "zwaveCompany", 
+            "caption": "Hersteller"
        }
-
     ]
     
 }

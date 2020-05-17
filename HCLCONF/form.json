@@ -1,0 +1,52 @@
+{
+    "elements": [
+        {
+            "type" :"SelectCategory", 
+            "name": "PropertyCategoryID", 
+            "caption": "Ziel" 
+        }
+    ],
+    "actions": [
+        {
+            "type": "Configurator",
+            "name": "Configuration",
+            "caption": "Configuration",
+            "delete": true,
+            "values": [],
+            "columns" : [
+                {
+                    "caption" : "ID",
+                    "name" : "zid",
+                    "width" : "200px",
+                    "visible" : true
+                },
+                {
+                    "caption" : "Name",
+                    "name" : "name",
+                    "width" : "200px",
+                    "visible" : true
+                },
+                {
+                    "caption" : "Hersteller",
+                    "name" : "company",
+                    "width" : "auto",
+                    "visible" : true
+                },
+                {
+                    "caption" : "Zwave-Info",
+                    "name" : "zwaveinfo",
+                    "width" : "200px",
+                    "visible" : true
+                },
+                {
+                    "caption" : "Version",
+                    "name" : "softwareversion",
+                    "width" : "200px",
+                    "visible" : true
+                }
+
+            ]
+        }
+        ],
+    "status": []
+}
